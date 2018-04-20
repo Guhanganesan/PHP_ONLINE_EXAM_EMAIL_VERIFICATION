@@ -4,8 +4,8 @@
      if(isset($_POST['submit']))		
 		{
 		$dbhost ="localhost";
-	    $dbuser="id3242175_guha_5599";
-	    $dbpass="guha0804";
+	    $dbuser="";
+	    $dbpass="";
 	    $conn = mysqli_connect( $dbhost, $dbuser, $dbpass, "id3242175_guha");
 	   // mysql_select_db("payilagam");
 		
